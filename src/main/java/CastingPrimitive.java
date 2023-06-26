@@ -1,4 +1,3 @@
-
 public class CastingPrimitive {
     /**
      * Casting is the conversion of one type to another. It exists for both primitive and object types.
@@ -16,6 +15,6 @@ public class CastingPrimitive {
      * @return the int form of d.
      */
     public int castToInt(double d){
-        return 0;
+        return (int) d;
     }
 }
